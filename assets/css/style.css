@@ -97,7 +97,7 @@ main#homepage #landing {
 }
 .darkblue {
     background: #000719;
-    display: flex;
+/*    display: flex;*/
     padding: 100px 25px;
 }
 .darkblue p {
@@ -108,8 +108,28 @@ main#homepage #landing {
     font-size: 18px;
     display: flex;
     flex: 2;
+    flex-direction: column;
 }
 .darkblue img {
+    display: flex;
+    flex: 1;
+}
+.blue {
+    background: #09337C;
+    display: flex;
+    padding: 100px 25px;
+}
+.blue p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    padding: 25px 10px;
+    font-size: 18px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.blue img {
     display: flex;
     flex: 1;
 }
