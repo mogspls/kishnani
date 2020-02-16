@@ -1,0 +1,121 @@
+@charset "utf-8";
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Header */
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    height: inherit;
+}
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    margin: 10px 25px;
+}
+#hamburger span {
+    margin: 3px 0px;
+    background: #fff;
+    height: 2px;
+    width: 30px;
+    transition: 0.2s;
+}
+#hamburger.active span#bun1 {
+    transition: 0.2s;
+    transform: rotate(45deg) translate(6px, 6px);
+}
+#hamburger.active span#burger {
+    transition: 0.2s;
+    opacity: 0;
+}
+#hamburger.active span#bun2 {
+    transition: 0.2s;
+    transform: rotate(-45deg) translate(6px, -5px);
+    
+}
+
+/* Navigation */
+section#navigation {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    max-width: 300px;
+    background: #282828;
+    display: none;
+}
+section#navigation ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+}
+section#navigation ul li {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+section#navigation ul li a {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    transition: 0.2s;
+    align-items: center;
+    padding: 0px 25px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+}
+section#navigation ul li a:hover {
+    background: #222;
+    transition: 0.2s;
+}
+
+/* Landing */
+.flex {
+    display: flex;
+}
+main#homepage #landing {
+    background: url(../img/walt-disney-pictures.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.darkblue {
+    background: #000719;
+    display: flex;
+    padding: 100px 25px;
+}
+.darkblue p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #fff;
+    padding: 25px 10px;
+    font-size: 18px;
+    display: flex;
+    flex: 2;
+}
+.darkblue img {
+    display: flex;
+    flex: 1;
+}
+
+@media only screen and (max-width: 320px){
+    .flex {
+        flex-direction: column;
+    }
+}
