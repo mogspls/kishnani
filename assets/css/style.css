@@ -1,6 +1,10 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+body.noscroll {
+    overflow: none;
+}
 /* Header */
 header {
     position: fixed;
@@ -134,10 +138,8 @@ main#homepage #landing {
     display: flex;
     flex: 1;
 }
-#archetypes.layout {
-    height: 100vh;
-}
 .layout {
+    height: 100vh;
     background: #000718;
 }
 button.slick-arrow {
@@ -149,8 +151,50 @@ button.slick-arrow:hover {
     background: rgba(255,255,255,.4);
     transition: 0.2s;
 }
-/* Archetypes */
 
+/* Contact */
+#contact {
+    height: 100vh;
+    font-family: 'Open Sans',sans-serif;
+    color: #fff;
+    background: #000;
+}
+
+/* Archetypes */
+#modal {
+    display: none;
+    transition: 0.2s;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+#modalvideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 1080px;
+    height: 75%;
+}
+footer {
+    background: #fff;
+    padding: 25px 0px;
+    text-align: center;
+}
+footer p {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
 @media only screen and (max-width: 320px){
     .flex {
         flex-direction: column;

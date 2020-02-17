@@ -16,4 +16,16 @@ $(document).ready(function(){
       slidesToShow: 1,
       adaptiveHeight: true
     });
+    
+    // Video
+    
+    $("button#video").on('click', function(){
+        $("#modal").fadeToggle();
+        $("body").toggleClass("noscroll");
+    });
+    
+    // If clicked outside div, then close modal
+    $('#modal').click(function (event) {
+        $(this).fadeToggle();
+    });
 })

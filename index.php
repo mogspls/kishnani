@@ -21,7 +21,7 @@
     
     <section class="darkblue">
         <div class="container flex" style="text-align: center; justify-content: center;">
-            <a href="#" style="text-align: center; display: block; padding: 15px 20px; text-decoration: none; color: #fff; font-size: 18px; font-family: 'Open Sans', sans-serif; background: #09337C;">Watch the Video</a>
+            <button id="video" style="text-align: center; display: block; padding: 15px 20px; text-decoration: none; color: #fff; font-size: 18px; font-family: 'Open Sans', sans-serif; background: #09337C; cursor: pointer;">Watch the Video</button>
         </div>
         <div class="container">
             <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur excepturi nulla voluptatum in maxime fugit, assumenda maiores rerum, quos nesciunt dicta velit molestiae laudantium saepe rem cum. Laborum, dolorum, beatae!</span>
