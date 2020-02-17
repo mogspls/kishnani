@@ -144,11 +144,11 @@ main#homepage #landing {
 }
 button.slick-arrow {
     transition: 0.2s;
-    background: none;
+    background: rgba(255,255,255,0.2);
     border: none;
 }
 button.slick-arrow:hover {
-    background: rgba(255,255,255,.4);
+    background: rgba(255,255,255,0.4);
     transition: 0.2s;
 }
 
