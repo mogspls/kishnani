@@ -10,11 +10,13 @@ $(document).ready(function(){
     
     // Initiate Slick.JS (The Slider)
     $('#carousel').slick({
-      dots: false,
-      infinite: true,
-      speed: 300,
-      slidesToShow: 1,
-      adaptiveHeight: true
+        dots: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
     });
     
     // Video
