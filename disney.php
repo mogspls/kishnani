@@ -18,9 +18,9 @@
     .slider-4 { background: #fc4a1a }
     
 </style>
-<main id="archetypes" class="layout">
+<main id="disney" class="layout">
     <div class="container">
-        <h1 style="padding: 50px 0px; color: #fff;">Archetypes</h1>
+        <h1 style="color: #fff;">Disney</h1>
         <section id="carousel">
             <div class="slider slider-1">Slider 1</div>
             <div class="slider slider-2">Slider 2</div>

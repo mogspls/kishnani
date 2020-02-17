@@ -53,6 +53,7 @@ section#navigation {
     max-width: 300px;
     background: #282828;
     display: none;
+    z-index: 100;
 }
 section#navigation ul {
     display: flex;
@@ -72,7 +73,7 @@ section#navigation ul li a {
     width: 100%;
     transition: 0.2s;
     align-items: center;
-    padding: 0px 25px;
+    padding: 15px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     color: #fff;
@@ -133,6 +134,22 @@ main#homepage #landing {
     display: flex;
     flex: 1;
 }
+#archetypes.layout {
+    height: 100vh;
+}
+.layout {
+    background: #000718;
+}
+button.slick-arrow {
+    transition: 0.2s;
+    background: none;
+    border: none;
+}
+button.slick-arrow:hover {
+    background: rgba(255,255,255,.4);
+    transition: 0.2s;
+}
+/* Archetypes */
 
 @media only screen and (max-width: 320px){
     .flex {
