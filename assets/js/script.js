@@ -13,10 +13,12 @@ $(document).ready(function(){
         dots: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1500,
         speed: 300,
         slidesToShow: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        prevArrow: "<button>&lt;</button>",
+        nextArrow: "<button>&gt;</button>"
     });
     
     // Video
